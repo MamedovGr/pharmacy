@@ -53,6 +53,7 @@ class DrugsController extends Controller
 
 
 
+
        $categories = Category::orderBy('name')
            ->get();
        $hard_drugs = Hard_drugs::orderBy('name')

@@ -1,16 +1,16 @@
 <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{asset('slider/03c9c8.jpg')}}" class="d-block w-100" alt="...">
+            <img src="{{asset('slider/03c9c8.jpg')}}" class="d-block  w-75 rounded mx-auto" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="{{asset('slider/4d7f76.jpg')}}" class="d-block w-100" alt="...">
+            <img src="{{asset('slider/4d7f76.jpg')}}" class="d-block  w-75 rounded mx-auto" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="{{asset('slider/85a6f7.jpg')}}" class="d-block w-100" alt="...">
+            <img src="{{asset('slider/85a6f7.jpg')}}" class="d-block  w-75 rounded mx-auto" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="{{asset('slider/1297cd.jpg')}}" class="d-block w-100" alt="...">
+            <img src="{{asset('slider/1297cd.jpg')}}" class="d-block  w-75 rounded mx-auto" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
