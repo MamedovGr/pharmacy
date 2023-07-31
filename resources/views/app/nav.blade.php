@@ -4,7 +4,7 @@
             <div class="col-6">
                 <div class="row justify-content-center">
                     <div class="col-4">
-                        <a class="navbar-brand {{ request()->routeIs('home') ? 'link-dark fw-bold':'' }}" href="{{ route('home') }}"><i class="bi bi-calendar-plus-fill mx-1 text-warning"></i>GM Pharmacy</a>
+                        <a class="navbar-brand{{ request()->routeIs('home') ? 'link-dark fw-bold':'' }}" href="{{ route('home') }}"><i class="bi bi-calendar-plus-fill mx-1 text-warning"></i>GM Pharmacy</a>
                     </div>
                     <div class="col-4"><a href="{{route('home')}}" class="text-decoration-none fw-bold text-dark">Home</a></div>
                 </div>
