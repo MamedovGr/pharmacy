@@ -29,7 +29,7 @@
                     <div class="accordion-body">
                         @foreach($hard_drugs as $hard_drug)
                             <input class="form-check-input" type="checkbox" id="flexCheck-c-{{ $hard_drug->id }}" name="hard_drug[]"
-                                   value="{{ $hard_drug->id }}" {{ in_array($hard_drug->id, $f_hard_drugs) ? 'checked' : ''}}>
+                                   value="{{ $hard_drug->id }}" {{ in_array($hard_drug->id, $f_hard_drugs) ? 'checked' : ''}}">
                             <label class="form-check-label" for="flexCheck-c-{{$hard_drug->id }}">{{ $hard_drug->name}}</label>
                         @endforeach
                     </div>

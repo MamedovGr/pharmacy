@@ -1,5 +1,4 @@
-{{--
-<div class="border rounded shadow-sm p-3">
+{{--<div class="border rounded shadow-sm p-3">
     <div class="d-flex justify-content-between">
         <div class="mb-1">
             <a href="{{route('drug.index', ['category'=>$drug->category->id])}}" class="link-dark fw-bold text-decoration-none">
@@ -22,6 +21,6 @@
             </a>
         </div>
     </div>
-</div>
---}}
+</div>--}}
+
 
